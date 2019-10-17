@@ -11,9 +11,9 @@ import java.text.SimpleDateFormat;
 /**
  * The Sudoku game.
  * To solve the number puzzle, each row, each column, and each of the
- * nine 3กม3 sub-grids shall contain all of the digits from 1 to 9
+ * nine 3ยกร3 sub-grids shall contain all of the digits from 1 to 9
  */
-public class Sudoku01 extends JFrame {
+public class Sudoku extends JFrame {
     // Name-constants for the game properties
     public static final int GRID_SIZE = 9;    // Size of the board
     public static final int SUBGRID_SIZE = 3; // Size of the sub-grid
