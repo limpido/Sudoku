@@ -11,7 +11,7 @@ import java.text.SimpleDateFormat;
 /**
  * The Sudoku game.
  * To solve the number puzzle, each row, each column, and each of the
- * nine 3¡Á3 sub-grids shall contain all of the digits from 1 to 9
+ * nine sub-grids shall contain all of the digits from 1 to 9
  */
 public class Sudoku extends JFrame {
     // Name-constants for the game properties
@@ -88,7 +88,7 @@ public class Sudoku extends JFrame {
     /**
       * Constructor to setup the game and the UI Components
     */
-    public Sudoku01() {
+    public Sudoku() {
       JFrame overall = new JFrame();
       overall.setLayout(new BorderLayout());
 
